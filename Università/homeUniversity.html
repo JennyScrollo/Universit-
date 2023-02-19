@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="homeUniversity.html">
+                <img src="./eduford_img/logo.png" alt="" class="logo">
+            </a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="chiudiMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</li></a>
+                    <li><a href="">ABOUT</li></a>
+                    <li><a href="">CORSI</li></a>
+                    <li><a href="">CONTATTI</li></a>
+                    <li><a href="">LOGIN</li></a>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="apriMenu()"></i>
+        </nav>
+        <div class="textBox">
+            <h1>World's Biggest University</h1>
+            <p>Una università è un'istituzione educativa superiore che mira a fornire una <br> formazione avanzata ai propri studenti.</p>
+            <button type="button" class="btn btn-outline-primary">
+                Scopri di più
+            </button>
+        </div>
+    </section>
+
+   <section class="corso">
+    <h1>I NOSTRI CORSI</h1>
+    <p class="paragrafoCorso">Rivoluziona la tua carriera con i nostri corsi: <br> trasformiamo la tua passione in un successo professionale!</p>
+
+    <div class="contenitoreCard">
+        <div class="card">
+            <div class="card-details" id="card1">
+            </div>
+            <button class="card-button">Letteratura</button>
+        </div>
+
+        <div class="card">
+            <div class="card-details" id="card2">
+            </div>
+            <button class="card-button">Scienze Motorie</button>
+        </div>
+
+        <div class="card">
+            <div class="card-details" id="card3">
+            </div>
+            <button class="card-button">Informatica</button>
+        </div>
+    </div>
+    <div class="contenitoreCard2">
+
+        <div class="card">
+            <div class="card-details" id="card4">
+            </div>
+            <button class="card-button">Giurisprudenza</button>
+        </div>
+
+        <div class="card">
+            <div class="card-details" id="card5">
+            </div>
+            <button class="card-button">Medicina</button>
+        </div>
+
+        <div class="card">
+            <div class="card-details" id="card6">
+            </div>
+            <button class="card-button">Scienze</button>
+        </div>
+    </div>
+   </section>
+
+   <section class="partner">
+            <h1>I NOSTRI PARTNER </h1>
+            <p class="paragrafoPartner">La nostra università è fiera di collaborare con alcune delle aziende più innovative e leader del settore. <br> Queste partnership ci permettono di fornire ai nostri studenti esperienze pratiche uniche  <br> e opportunità di carriera,  e ci aiutano a mantenere una forte connessione <br> tra il mondo accademico e quello professionale. <br> Ecco alcune delle aziende con cui lavoriamo</p>
+
+        <div class="contenitorePartner">
+            <div class="cardPartner">
+                <h3 class="card__title">AMAZON
+                </h3>
+                <p class="card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="card__date">
+                <p>Inizio partnership:</p> Novembre 29, 2017
+                </div>
+                <div class="card__arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
+                        <path fill="#fff" d="M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z"></path>
+                    </svg>
+                </div>
+                        
+            </div>
+            <div class="cardPartner">
+                <h3 class="card__title">COINBASE
+                </h3>
+                <p class="card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="card__date">
+                <p>Inizio partnership:</p> Aprile 15, 2022
+                </div>
+                <div class="card__arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
+                        <path fill="#fff" d="M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z"></path>
+                    </svg>
+                </div>
+                        
+            </div> 
+            <div class="cardPartner">
+                <h3 class="card__title">PFIZER
+                </h3>
+                <p class="card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="card__date">
+                <p>Inizio partnership:</p> Dicembre 5, 2020
+                </div>
+                <div class="card__arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
+                        <path fill="#fff" d="M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z"></path>
+                    </svg>
+                </div>
+                        
+            </div>  
+         </div> 
+         <div class="contenitorePartner2">
+            <div class="cardPartner">
+                <h3 class="card__title">OPEN AI
+                </h3>
+                <p class="card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="card__date">
+                <p>Inizio partnership:</p> Gennaio 15, 2023
+                </div>
+                <div class="card__arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
+                        <path fill="#fff" d="M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z"></path>
+                    </svg>
+                </div>
+                        
+            </div>
+            <div class="cardPartner">
+                <h3 class="card__title">TESLA
+                </h3>
+                <p class="card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="card__date">
+                <p>Inizio partnership:</p> Maggio 18, 2019
+                </div>
+                <div class="card__arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
+                        <path fill="#fff" d="M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z"></path>
+                    </svg>
+                </div>
+                        
+            </div> 
+            <div class="cardPartner">
+                <h3 class="card__title">IBM
+                </h3>
+                <p class="card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="card__date">
+                <p>Inizio partnership:</p> Settembre 25, 2016
+                </div>
+                <div class="card__arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
+                        <path fill="#fff" d="M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z"></path>
+                    </svg>
+                </div>
+                        
+            </div>  
+         </div> 
+         
+
+   </section>
+
+
+ <section class="footer">
+    <h4>ABOUT</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br> Fuga, dolorem aut? Fugit, nam, rerum quia repellat molestias tempore facilis adipisci minus in ex officia sint. Doloremque dolorem ab earum maxime!
+    </p>
+    <div class="icone">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+
+    <p>Made Vitale Davide</p>
+ </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        let navLinks=document.querySelector("#navLinks");
+        function apriMenu(){
+            navLinks.style.right="0px"
+            navLinks.style.transition="0.8s"
+
+        }
+
+        function chiudiMenu(){
+            navLinks.style.right="-200px"
+            navLinks.style.transition="0.8s"
+        }
+    </script>
+</body>
+</html>
